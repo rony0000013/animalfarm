@@ -10,7 +10,7 @@ app.use(express.urlencoded({ extended: true }));
 
 const chance = new Chance();
 
-const animals = [...Array(250).keys()].map((id) => ({
+const animals = [...Array(500).keys()].map((id) => ({
         id,
         name: chance.name(),
         age: chance.age(),

@@ -21,7 +21,7 @@ useEffect(() => {
  * @return {Promise<void>} - A promise that resolves when the search is complete and animal data has been set.
  */
   const search = async (q) => {
-    const response = await fetch('http://localhost:8080?' + new URLSearchParams({ q }));
+    const response = await fetch("http://localhost:8080" + ':8080?' + new URLSearchParams({ q }));
     const data = await response.json();
     setAnimals(data);
 
