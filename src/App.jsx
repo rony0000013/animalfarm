@@ -32,7 +32,7 @@ useEffect(() => {
     <>
     <Box component="div" height={"100vh"} p={4} m={2} alignItems="center" justifyContent="start" display="flex" flexDirection="column" bgcolor="background.paper">
       {/* <h1 className='text-2xl'></h1> */}
-      <Typography variant="h1" m={3}>🐐 Animal Farm</Typography>
+      <Typography variant="h1" m={3}>🐐 Animal Search</Typography>
 
       <TextField id="filled-basic" label="Search" variant="filled" sx={{"margin-bottom": "1.5rem", margin: "1rem"}} onChange={e => search(e.target.value)} style={{ width: '700px' }} />
 
